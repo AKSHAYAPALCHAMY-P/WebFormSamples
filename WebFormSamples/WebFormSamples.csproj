@@ -122,6 +122,8 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Samples\LabelSample\LabelSample.aspx" />
+    <Content Include="Samples\LifeCycleSample\ApplicationLifeCycleSample.aspx" />
+    <Content Include="Samples\LifeCycleSample\PageLifeCycleSample.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -217,6 +219,20 @@
     </Compile>
     <Compile Include="Samples\LabelSample\LabelSample.aspx.designer.cs">
       <DependentUpon>LabelSample.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Samples\LifeCycleSample\ApplicationLifeCycleSample.aspx.cs">
+      <DependentUpon>ApplicationLifeCycleSample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Samples\LifeCycleSample\ApplicationLifeCycleSample.aspx.designer.cs">
+      <DependentUpon>ApplicationLifeCycleSample.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Samples\LifeCycleSample\PageLifeCycleSample.aspx.cs">
+      <DependentUpon>PageLifeCycleSample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Samples\LifeCycleSample\PageLifeCycleSample.aspx.designer.cs">
+      <DependentUpon>PageLifeCycleSample.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
