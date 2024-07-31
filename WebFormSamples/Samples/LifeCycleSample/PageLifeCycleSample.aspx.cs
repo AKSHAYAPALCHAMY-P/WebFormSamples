@@ -51,6 +51,20 @@ namespace WebFormSamples.Samples
             base.OnPreRender(e);
         }
 
+        protected override void Render(HtmlTextWriter writer)
+        {
+            //Debug.WriteLine("Render Completed..");
+            /*writer.Write("<div style='color: green;'>");
+            writer.Write("Hello from MyCustomControl!");
+            writer.Write("</div>");
+            base.Render(writer);*/
+
+            writer.AddAttribute(HtmlTextWriterAttribute.Style, "Color:blue");
+            writer.RenderBeginTag(HtmlTextWriterTag.Div);
+            writer.Write("This is inside a styled div.");
+            writer.RenderEndTag();
+        }
+
         protected override void OnPreRenderComplete(EventArgs e)
         {
             Debug.WriteLine("OnPreRenderComplete Completed");
@@ -62,6 +76,14 @@ namespace WebFormSamples.Samples
             Debug.WriteLine("OnSaveStateComplete completed");
             base.OnSaveStateComplete(e);
         }
+
+        protected override void OnUnload(EventArgs e)
+        {
+            Debug.WriteLine("OnUnload Completed");
+            base.OnUnload(e);
+        }
+
+        
 
     }
 }
