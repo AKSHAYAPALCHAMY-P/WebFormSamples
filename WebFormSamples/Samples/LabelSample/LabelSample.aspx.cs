@@ -7,15 +7,13 @@ namespace WebFormSamples.Samples
     {
         protected void Show_Text(object sender, EventArgs e)
         {
-            string UserName = TextBox1.Text;
-
-            OutputLabel.Text += UserName;
+            string userName = UserInput.Text;
+            OutputLabel.Text += userName;
         }
 
-        protected void Edit_text(string UserName)
+        protected void Edit_Text(string userName)
         {
-            OutputLabel.Text = UserName;
+            OutputLabel.Text = userName;
         }
-
-    }   
+    }
 }

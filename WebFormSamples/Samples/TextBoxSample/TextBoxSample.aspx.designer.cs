@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebFormSamples.Samples
+namespace WebFormSamples.Samples.TextBoxSample
 {
 
 
-    public partial class LabelSample
+    public partial class TextBoxSample
     {
 
         /// <summary>
@@ -33,13 +33,13 @@ namespace WebFormSamples.Samples
         protected global::System.Web.UI.WebControls.Label UserName;
 
         /// <summary>
-        /// UserInput control.
+        /// InputText control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox UserInput;
+        protected global::System.Web.UI.WebControls.TextBox InputText;
 
         /// <summary>
         /// Submit control.
@@ -51,13 +51,13 @@ namespace WebFormSamples.Samples
         protected global::System.Web.UI.WebControls.Button Submit;
 
         /// <summary>
-        /// OutputLabel control.
+        /// ViewText control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label OutputLabel;
+        protected global::System.Web.UI.WebControls.Label ViewText;
 
         /// <summary>
         /// Edit control.
@@ -67,5 +67,14 @@ namespace WebFormSamples.Samples
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Edit;
+
+        /// <summary>
+        /// ModifyText control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label ModifyText;
     }
 }

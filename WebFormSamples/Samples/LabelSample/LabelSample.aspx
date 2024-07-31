@@ -11,15 +11,17 @@
         <div>
             <h1>Label Sample</h1>
 
-            <asp:Label ID="Label1" Text="UserName" runat="server"></asp:Label>
-            <asp:TextBox ID="TextBox1" runat="server" ></asp:TextBox>
+            <asp:Label ID="UserName" Text="UserName" runat="server"></asp:Label>
+            <asp:TextBox ID="UserInput" runat="server"></asp:TextBox>
 
-            <asp:Button ID ="Button1" runat="server" Text="Submit" onclick="Show_Text" />
+            <asp:Button ID="Submit" runat="server" Text="Submit" OnClick="Show_Text" />
             <br />
 
-            <asp:Label ID="OutputLabel" runat="server"></asp:Label>
+             <asp:Label ID="OutputLabel" runat="server"></asp:Label>
+             <asp:Button ID="Edit" runat="server" Text="Edit"/>
+           
 
-            <asp:Button ID="Button2" runat="server" Text="Edit" />
+           
         </div>
     </form>
 </body>
