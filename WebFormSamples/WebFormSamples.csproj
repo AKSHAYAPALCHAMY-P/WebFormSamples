@@ -124,6 +124,9 @@
     <Content Include="Samples\ButtonSample\ButtonSample.aspx" />
     <Content Include="Samples\CalenderSample\CalendarSample.aspx" />
     <Content Include="Samples\CheckBoxSample\CheckBoxSample.aspx" />
+    <Content Include="Samples\CookieSample\CookieSample.aspx" />
+    <Content Include="Samples\DownloadFileSample\DownloadFileSample.aspx" />
+    <Content Include="Samples\FileUploadSample\FileUploadSample.aspx" />
     <Content Include="Samples\HyperLink Sample\HyperLinkSample.aspx" />
     <Content Include="Samples\LabelSample\LabelSample.aspx" />
     <Content Include="Samples\LifeCycleSample\ApplicationLifeCycleSample.aspx" />
@@ -241,6 +244,27 @@
     <Compile Include="Samples\CheckBoxSample\CheckBoxSample.aspx.designer.cs">
       <DependentUpon>CheckBoxSample.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Samples\CookieSample\CookieSample.aspx.cs">
+      <DependentUpon>CookieSample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Samples\CookieSample\CookieSample.aspx.designer.cs">
+      <DependentUpon>CookieSample.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Samples\DownloadFileSample\DownloadFileSample.aspx.cs">
+      <DependentUpon>DownloadFileSample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Samples\DownloadFileSample\DownloadFileSample.aspx.designer.cs">
+      <DependentUpon>DownloadFileSample.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Samples\FileUploadSample\FileUploadSample.aspx.cs">
+      <DependentUpon>FileUploadSample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Samples\FileUploadSample\FileUploadSample.aspx.designer.cs">
+      <DependentUpon>FileUploadSample.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Samples\HyperLink Sample\HyperLinkSample.aspx.cs">
       <DependentUpon>HyperLinkSample.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -314,6 +338,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="temp\" />
+    <Folder Include="wwwroot\Files\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

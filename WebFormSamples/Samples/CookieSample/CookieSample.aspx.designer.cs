@@ -11,7 +11,7 @@ namespace WebFormSamples.Samples
 {
 
 
-    public partial class LinkButtonSample
+    public partial class CookieSample
     {
 
         /// <summary>
@@ -24,21 +24,12 @@ namespace WebFormSamples.Samples
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// LinkWebPage control.
+        /// Cookie control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton LinkWebPage;
-
-        /// <summary>
-        /// PageLink control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PageLink;
+        protected global::System.Web.UI.WebControls.Label Cookie;
     }
 }
