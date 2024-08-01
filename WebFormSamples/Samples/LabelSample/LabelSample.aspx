@@ -15,7 +15,7 @@
             <asp:TextBox ID="UserInput" runat="server"></asp:TextBox>
 
             <asp:Button ID="Submit" runat="server" Text="Submit" OnClick="Show_Text" />
-            <br />
+            <br/>
 
              <asp:Label ID="OutputLabel" runat="server"></asp:Label>
              <asp:Button ID="Edit" runat="server" Text="Edit"/>

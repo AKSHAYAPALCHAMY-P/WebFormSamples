@@ -121,9 +121,15 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Samples\ButtonSample\ButtonSample.aspx" />
+    <Content Include="Samples\CalenderSample\CalendarSample.aspx" />
+    <Content Include="Samples\CheckBoxSample\CheckBoxSample.aspx" />
+    <Content Include="Samples\HyperLink Sample\HyperLinkSample.aspx" />
     <Content Include="Samples\LabelSample\LabelSample.aspx" />
     <Content Include="Samples\LifeCycleSample\ApplicationLifeCycleSample.aspx" />
     <Content Include="Samples\LifeCycleSample\PageLifeCycleSample.aspx" />
+    <Content Include="Samples\LinkButtonSamples\LinkButtonSample.aspx" />
+    <Content Include="Samples\RadioButtonSample\RadioButton Sample.aspx" />
     <Content Include="Samples\TextBoxSample\TextBoxSample.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -214,6 +220,34 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Samples\ButtonSample\ButtonSample.aspx.cs">
+      <DependentUpon>ButtonSample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Samples\ButtonSample\ButtonSample.aspx.designer.cs">
+      <DependentUpon>ButtonSample.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Samples\CalenderSample\CalendarSample.aspx.cs">
+      <DependentUpon>CalendarSample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Samples\CalenderSample\CalendarSample.aspx.designer.cs">
+      <DependentUpon>CalendarSample.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Samples\CheckBoxSample\CheckBoxSample.aspx.cs">
+      <DependentUpon>CheckBoxSample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Samples\CheckBoxSample\CheckBoxSample.aspx.designer.cs">
+      <DependentUpon>CheckBoxSample.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Samples\HyperLink Sample\HyperLinkSample.aspx.cs">
+      <DependentUpon>HyperLinkSample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Samples\HyperLink Sample\HyperLinkSample.aspx.designer.cs">
+      <DependentUpon>HyperLinkSample.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Samples\LabelSample\LabelSample.aspx.cs">
       <DependentUpon>LabelSample.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -234,6 +268,20 @@
     </Compile>
     <Compile Include="Samples\LifeCycleSample\PageLifeCycleSample.aspx.designer.cs">
       <DependentUpon>PageLifeCycleSample.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Samples\LinkButtonSamples\LinkButtonSample.aspx.cs">
+      <DependentUpon>LinkButtonSample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Samples\LinkButtonSamples\LinkButtonSample.aspx.designer.cs">
+      <DependentUpon>LinkButtonSample.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Samples\RadioButtonSample\RadioButton Sample.aspx.cs">
+      <DependentUpon>RadioButton Sample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Samples\RadioButtonSample\RadioButton Sample.aspx.designer.cs">
+      <DependentUpon>RadioButton Sample.aspx</DependentUpon>
     </Compile>
     <Compile Include="Samples\TextBoxSample\TextBoxSample.aspx.cs">
       <DependentUpon>TextBoxSample.aspx</DependentUpon>
