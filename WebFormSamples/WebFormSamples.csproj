@@ -125,7 +125,11 @@
     <Content Include="Samples\CalenderSample\CalendarSample.aspx" />
     <Content Include="Samples\CheckBoxSample\CheckBoxSample.aspx" />
     <Content Include="Samples\CookieSample\CookieSample.aspx" />
+    <Content Include="Samples\DataGridSample\DataGridSample.aspx" />
+    <Content Include="Samples\DataListSample\DataListSample.aspx" />
     <Content Include="Samples\DownloadFileSample\DownloadFileSample.aspx" />
+    <Content Include="Samples\DropDownListSample\DropDownListSample.aspx" />
+    <Content Include="Samples\EventsHandlingSample\EventsHandlingSample.aspx" />
     <Content Include="Samples\FileUploadSample\FileUploadSample.aspx" />
     <Content Include="Samples\HyperLink Sample\HyperLinkSample.aspx" />
     <Content Include="Samples\LabelSample\LabelSample.aspx" />
@@ -133,6 +137,8 @@
     <Content Include="Samples\LifeCycleSample\PageLifeCycleSample.aspx" />
     <Content Include="Samples\LinkButtonSamples\LinkButtonSample.aspx" />
     <Content Include="Samples\RadioButtonSample\RadioButton Sample.aspx" />
+    <Content Include="Samples\RegistrationFormSample\RegistrationFormSample.aspx" />
+    <Content Include="Samples\SessionSample\SessionSample.aspx" />
     <Content Include="Samples\TextBoxSample\TextBoxSample.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -251,12 +257,40 @@
     <Compile Include="Samples\CookieSample\CookieSample.aspx.designer.cs">
       <DependentUpon>CookieSample.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Samples\DataGridSample\DataGridSample.aspx.cs">
+      <DependentUpon>DataGridSample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Samples\DataGridSample\DataGridSample.aspx.designer.cs">
+      <DependentUpon>DataGridSample.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Samples\DataListSample\DataListSample.aspx.cs">
+      <DependentUpon>DataListSample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Samples\DataListSample\DataListSample.aspx.designer.cs">
+      <DependentUpon>DataListSample.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Samples\DownloadFileSample\DownloadFileSample.aspx.cs">
       <DependentUpon>DownloadFileSample.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Samples\DownloadFileSample\DownloadFileSample.aspx.designer.cs">
       <DependentUpon>DownloadFileSample.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Samples\DropDownListSample\DropDownListSample.aspx.cs">
+      <DependentUpon>DropDownListSample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Samples\DropDownListSample\DropDownListSample.aspx.designer.cs">
+      <DependentUpon>DropDownListSample.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Samples\EventsHandlingSample\EventsHandlingSample.aspx.cs">
+      <DependentUpon>EventsHandlingSample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Samples\EventsHandlingSample\EventsHandlingSample.aspx.designer.cs">
+      <DependentUpon>EventsHandlingSample.aspx</DependentUpon>
     </Compile>
     <Compile Include="Samples\FileUploadSample\FileUploadSample.aspx.cs">
       <DependentUpon>FileUploadSample.aspx</DependentUpon>
@@ -306,6 +340,20 @@
     </Compile>
     <Compile Include="Samples\RadioButtonSample\RadioButton Sample.aspx.designer.cs">
       <DependentUpon>RadioButton Sample.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Samples\RegistrationFormSample\RegistrationFormSample.aspx.cs">
+      <DependentUpon>RegistrationFormSample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Samples\RegistrationFormSample\RegistrationFormSample.aspx.designer.cs">
+      <DependentUpon>RegistrationFormSample.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Samples\SessionSample\SessionSample.aspx.cs">
+      <DependentUpon>SessionSample.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Samples\SessionSample\SessionSample.aspx.designer.cs">
+      <DependentUpon>SessionSample.aspx</DependentUpon>
     </Compile>
     <Compile Include="Samples\TextBoxSample\TextBoxSample.aspx.cs">
       <DependentUpon>TextBoxSample.aspx</DependentUpon>

@@ -16,6 +16,8 @@ namespace WebFormSamples.Samples
 
             Cookie.Value = "Akshaya";
 
+            Cookie.Expires = DateTime.Now.AddDays(1);
+
             Response.Cookies.Add(Cookie);
 
             var co_val = Response.Cookies["student"].Value;

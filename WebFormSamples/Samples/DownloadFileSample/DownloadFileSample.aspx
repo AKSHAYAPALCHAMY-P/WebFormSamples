@@ -1,4 +1,8 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DownloadFileSample.aspx.cs" Inherits="WebFormSamples.Samples.DownloadFileSample" %>
+﻿<asp:DataList runat="server"></asp:DataList>
+<asp:DataList runat="server"></asp:DataList>
+<asp:DataList runat="server"></asp:DataList>
+
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DownloadFileSample.aspx.cs" Inherits="WebFormSamples.Samples.DownloadFileSample" %>
 
 <!DOCTYPE html>
 
